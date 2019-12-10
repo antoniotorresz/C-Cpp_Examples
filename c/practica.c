@@ -1,8 +1,9 @@
+/*
+Antonio Torres
+*/
 #include <conio.h>
 #include<stdio.h>
-/*
-Yessenia Abigail Garcia Rizo
-*/
+
 double sueldo, n1, n2, resultado;
 int opc;
 
