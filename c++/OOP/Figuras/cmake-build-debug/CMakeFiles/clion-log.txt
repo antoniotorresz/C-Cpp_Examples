@@ -1,0 +1,4 @@
+"/home/ant/Escritorio/Ingreso CIMAT/Matemáticas/clion-2020.2.1/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ant/Escritorio/C-Cpp_Examples/c++/OOP/Figuras
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ant/Escritorio/C-Cpp_Examples/c++/OOP/Figuras/cmake-build-debug
