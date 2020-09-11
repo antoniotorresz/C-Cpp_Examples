@@ -30,7 +30,7 @@ public:
 
 //Clase figura plana
 class FiguraPlana {
-protected:
+private:
     float m_perimetro;
     float m_area;
     vector<Coordenada> m_cords;
