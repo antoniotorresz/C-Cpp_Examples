@@ -1,3 +1,0 @@
-/home/ant/Escritorio/C-Cpp_Examples/c++/OOP/Figuras/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ant/Escritorio/C-Cpp_Examples/c++/OOP/Figuras/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ant/Escritorio/C-Cpp_Examples/c++/OOP/Figuras/cmake-build-debug/CMakeFiles/Figuras.dir
