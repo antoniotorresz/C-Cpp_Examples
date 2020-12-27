@@ -11,3 +11,9 @@
 \contentsline {subsubsection}{\numberline {4.1.6}float}{5}%
 \contentsline {subsubsection}{\numberline {4.1.7}double}{5}%
 \contentsline {subsection}{\numberline {4.2}Tipos de datos derivados}{5}%
+\contentsline {subsection}{\numberline {4.3}Sinonimos de un tipo}{5}%
+\contentsline {subsection}{\numberline {4.4}Palabras reservadas}{5}%
+\contentsline {section}{\numberline {5}Operadores}{6}%
+\contentsline {subsection}{\numberline {5.1}Operadores a nivel de bits}{6}%
+\contentsline {subsection}{\numberline {5.2}Operación dirección de}{6}%
+\contentsline {subsection}{\numberline {5.3}Operador de in-dirección}{6}%

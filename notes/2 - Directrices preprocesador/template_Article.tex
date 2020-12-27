@@ -1,0 +1,35 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+%opening
+\title{Nociones Básicas de programación C}
+\author{Antonio Torres}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+En este documento se abordan las nociones básicas de los lenguajes de programación en general, desde el proceso de escritura del programa hasta su salida. Se habla acerca de la historia del lenguaje C, los tipos de datos que lo conforman y sus características.
+\end{abstract}
+
+\tableofcontents
+
+\pagebreak
+
+\section{Directrices para el pre-procesador}
+La finalidad de las directrices es facilitar el desarrollo, mantenimiento y compilación de un programa. Una directriz se identifica porque empieza con el carácter \#. Las mas usuales son las directrices de inclusión, \textbf{\#include}, y la directriz de sustitución \textbf{\#define}.
+
+Las directrices son procesadas por el pre-procesador de C, el cual es invocado por el compilador antes de que inicie la traducción del código fuente.
+
+\subsection{La directriz de inclusión}
+Para incluir la declaración de una función de la biblioteca de C antes de la primera llamada a la misma, basta con incluir el fichero de cabecera que la contiene, la directriz de inclusión puede ser usada de cualquiera de las siguientes dos formas:
+
+\begin{align}
+	\# include <stdio.h> \\
+	\#include "misfunciones.h"
+\end{align}
+
+Si el fichero de cabecera se delimita por los caracteres <>, el pre-procesador de C buscará ese fichero directamente en el directorio predefinido include. En cambio, si el ficehro de cabecera se delimita por las comillas, el pre-procesador de C buscará ese fichero primero en el directorio actual de trabajo y si no lo encuentra irá el directorio predefinido include. En cualquiera de los casos, si el fichero no se encuentra se mostrará un error.
+
+\end{document}

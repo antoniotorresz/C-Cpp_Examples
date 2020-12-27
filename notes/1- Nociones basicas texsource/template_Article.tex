@@ -1,5 +1,6 @@
 \documentclass[]{article}
 \usepackage{graphicx}
+\usepackage{amsmath}
 %opening
 \title{Nociones Básicas de programación C}
 \author{Antonio Torres}
@@ -109,5 +110,47 @@ El tipo double se usa para almacenar un dato coma flotante de 64 bits en el form
 
 \subsection{Tipos de datos derivados}
 Los tipos derivados son construidos a partir de los tipos de datos primitivos. Algunos de ellos son: \textbf{estructuras, uniones, matrices, punteros y funciones.}
+
+\subsection{Sinonimos de un tipo}
+Usando la palabra reservada \textbf{typedef} podemos declarar nuevos nombres de tipos de datos, o mejor dicho sinónimos o alias de otro tipo de dato, ya sea primitivo o derivado, los cuales pueden ser usados más tarde para declarar variables de esos tipos.
+
+Las declaraciones \textbf{typedef} permiten parametrizar un programa para evitar problemas de portabilidad. Si usamos sinonimos de tipos de datos con typedef los tipos que pueden depender de la instalacion, cuando se lleve el programa a otra instalacion solo se tendrán que cambiar estas declaraciones.
+
+\subsection{Palabras reservadas}
+Las palabras reservadas son identificadores predeterminados que tienen un significado especial para el compilador de C. Por lo tanto, un identificador definido por el usuario no puede tener el mismo nombre que una palabra reservada.
+
+\pagebreak
+\section{Operadores}
+\subsection{Operadores a nivel de bits}
+Este tipo de operadores permiten realizar con sus operandos las operaciones AND, OR, XOR y desplazamientos, bit por bit. Los operadores tienen que ser enteros.
+\begin{align}
+	\begin{tabular}{|c|c|}
+		\hline
+		\& & Operacion AND a nivel de bits \\
+		\hline
+		| & Operacion OR a nivel de bits (caracter ASCII 128) \\
+		\hline
+		\^{}z| & Operacion XOR a nivel de bits \\
+		\hline
+		<< & Desplazamiento a la izquierda rellenando con ceros por la derecha \\
+		\hline
+		>> & Desplazamiento a la derecha rellenando con el bit de signo por la izquierda \\
+		\hline
+	\end{tabular}
+\end{align}
+
+\subsection{Operación dirección de}
+El operador \& (dirección en memoria de) nos permite obtener la dirección en memoria de su operando.
+
+\subsection{Operador de in-dirección}
+El operador de indireccion *(indirección) accede a un valor indirectamente a través de una dirección (un puntero). El resultado es el valor direccionado por el operando; dicho de una manera mas sencilla, el valor apuntado por el puntero.
+
+Un \textbf{puntero} es una variable con la capacidad de almacenar una direccion de memoria que indica donde se localiza un dato de un tipo especificado. La sintáxis para definir un puntero es la siguiente:
+
+\begin{align}
+	\textit{tipo * identificador}
+\end{align}
+
+donde tipo es el tipo de dato apuntado, ya sea primitivo o derivado
 
 \end{document}
